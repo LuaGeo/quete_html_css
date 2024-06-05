@@ -1,0 +1,43 @@
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: min-content;
+}
+
+header div {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  color: #de7471;
+}
+
+p {
+  font-size: 20px;
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #fdfdfd;
+  margin: auto;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #de7471;
+  width: 100%;
+}
